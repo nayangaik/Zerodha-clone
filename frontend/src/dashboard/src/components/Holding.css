@@ -1,0 +1,122 @@
+/* Holding.css */
+
+.title {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    margin-left: 4em;
+    
+  }
+  
+  .order-table {
+    width: 67vw;
+    overflow-x: auto; /* Add horizontal scrolling if needed */
+    display: flex;        /* Add flexbox to center the table */
+    justify-content: center; /* Center the table horizontally */
+  }
+  
+  table {
+    width: 100%; /* Increase table width */
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1rem;
+    max-width: 1000px; /* Add a max-width to prevent the table from getting too wide */
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 1rem; /* Increase padding */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .row.summary-row {
+    /* Remove the flexbox properties that cause horizontal alignment */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+  }
+  
+  .col {
+    text-align: center; /* Center the content within each column */
+    /* By default, block-level elements like h5 and p will stack vertically */
+  }
+  
+  .col h5 {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .col p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .profit {
+    color: rgb(45, 206, 88);
+  }
+  
+  .loss {
+    color: red;
+  }
+
+
+
+  /* summary table 
+
+  /* Styles for the summary table */
+.summary-container {
+  /* Add margin-top or padding-top if needed to space it from the main table */
+  margin-top: 15px; /* Adjust as needed */
+  padding-top: 10px; /* Optional: Add padding if the original had it */
+  border-top: 1px solid #eee; /* Mimic the visual separation if needed */
+}
+
+.summary-table {
+  width: 100%; /* Make the table take full width */
+  border-collapse: collapse; /* Remove spacing between cells */
+  border: none; /* Ensure no outer border */
+  text-align: left; /* Or 'center'/'right' depending on desired alignment */
+}
+
+.summary-table td {
+  border: none; /* Ensure no cell borders */
+  padding: 5px 10px; /* Adjust padding to match original spacing */
+  vertical-align: top; /* Align content to the top */
+}
+
+.summary-table h5 {
+  margin-bottom: 2px; /* Reduce default heading margin */
+  font-size: 1.1em; /* Adjust font size if needed */
+  font-weight: 500;
+}
+
+.summary-table p {
+  margin: 0; /* Remove default paragraph margin */
+  font-size: 0.85em; /* Adjust font size if needed */
+  color: #666; /* Match text color if needed */
+}
+
+/* Keep existing profit/loss styles */
+.summary-table .profit {
+  color: #1abc9c; /* Or your profit color */
+}
+
+.summary-table .loss {
+  color: #e74c3c; /* Or your loss color */
+}
+
+/* Optional: Adjust column widths if needed */
+/*
+.summary-table td:nth-child(1) { width: 33%; }
+.summary-table td:nth-child(2) { width: 33%; }
+.summary-table td:nth-child(3) { width: 34%; }
+*/
+
+  

@@ -1,0 +1,137 @@
+/* funds.css */
+
+/* Existing styles */
+  
+  .funds{
+    position:relative;
+    top:1.85em;
+    left: 15.5em;
+    margin-left: 25em;
+    overflow-x:unset;
+  }
+
+  .funds p{
+    margin-bottom: 2.1em;
+  }
+   
+  .span p{
+    margin-left: 2em;
+    font-size: 2.3em;
+  }
+  
+
+  
+  
+  .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: #fff;
+    margin: 5px 10px; /* Adjust vertical and horizontal spacing between buttons */
+  }
+  
+  .btn-green {
+    background: rgb(77, 248, 77);
+  }
+  
+  .btn-blue {
+    background: rgb(77, 77, 248);
+  }
+  
+  .btn-green:hover {
+    background: rgb(110, 253, 110);
+  }
+  
+  .btn-blue:hover {
+    background: rgb(110, 110, 253);
+  }
+  
+  .row {
+    display: flex;
+    /* Remove gap to control spacing between tables directly */
+    justify-content: center; /* Center the equity tables horizontally */
+    align-items: flex-start; /* Align tables to the top within the row */
+    margin-top:2em;
+    margin-left: 8em; /* Add some space above the commodity section */
+  }
+  
+  .col {
+    /* flex: 1; */ /* Remove flex to control table widths directly */
+    display: flex;
+    justify-content: center; /* Center content within each column */
+  }
+  
+  .commodity {
+   
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center; /* Center the text within the commodity box */
+    /* Position at the bottom and center horizontally */
+    position: fixed;
+    bottom: 20px; /* Adjust as needed for spacing from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px; /* Adjust width as needed */
+  }
+  
+  .commodity p {
+    margin-bottom: 2.3em;
+  }
+  
+  .data {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .imp {
+    font-weight: bold;
+  }
+  
+  .colored {
+    color: green;
+  }
+  
+  /* New styles for tables */
+  .tables-container {
+    display: flex;
+    gap: 25px; /* Adjust spacing between tables */
+    width: auto; /* Adjust width to fit content or a specific percentage */
+    justify-content: center; /* Center the tables horizontally */
+  }
+  
+  .funds-table {
+    width: 30%; /* Adjust the width percentage for equal sizing */
+    border-collapse: collapse; /* Ensure borders collapse to a single line */
+  }
+  
+  .funds-table td {
+    padding: 8px;
+    border: none; /* Remove individual cell borders */
+  }
+  
+  .funds-table tr {
+    border-bottom: 1px solid #ccc; /* Add horizontal lines between rows */
+  }
+  
+  .funds-table tr:last-child {
+    border-bottom: none; /* Remove the bottom border of the last row */
+  }
+  
+  .funds-table td:first-child {
+    padding-right: 20px; /* Add fixed right padding to the label column */
+    text-align: left; /* Ensure labels are left-aligned */
+  }
+  
+  .funds-table td:first-child + td {
+    border-left: 1px solid #ccc; /* Add a vertical divider after the first column */
+    padding-left: 20px; /* Add fixed left padding to the value column */
+    text-align: right; /* Align the values to the right */
+  }
+  
+  .funds-table th {
+    padding: 8px;
+    border: none; /* Remove header borders if you have them */
+    text-align: left; /* Align header text to the left */
+    border-bottom: 1px solid #ccc; /* Add a horizontal line below the header if needed */
+  }

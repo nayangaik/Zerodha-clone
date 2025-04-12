@@ -1,0 +1,24 @@
+/* frontend/src/dashboard/src/components/Home.css */
+
+.home-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Prevent body scrollbars if content overflows */
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1; /* Allow main-content to take up remaining vertical space */
+  overflow: hidden; /* Prevent this container from overflowing */
+}
+
+/* Style for the area containing Holdings/Positions/Orders */
+.dashboard-main-area {
+  flex-grow: 1; /* Take up remaining horizontal space */
+  overflow-y: auto; /* Allow vertical scrolling for content */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  padding: 20px; /* Add some padding */
+  box-sizing: border-box;
+}
