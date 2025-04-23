@@ -10,7 +10,7 @@ const Education = () => {
     <div className='row '>
         <div className='col-6' style={{position:"relative" , right:"10em"}}>
            
-           <img src='media/images/education.svg' alt='education' className='mb-5'/>
+           <img src='/media/images/education.svg' alt='education' className='mb-5'/>
                       
         </div>
         

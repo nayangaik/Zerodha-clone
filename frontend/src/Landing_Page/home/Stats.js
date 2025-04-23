@@ -3,6 +3,7 @@ import React from 'react';
 
 
 
+
 const Stats = () => {
   return (
    
@@ -23,7 +24,7 @@ const Stats = () => {
              <p className='text-start text-muted'>With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.</p>
           </div>
           <div className='col-6 p-5' style={{position:"relative" , left:"10em"}}>
-              <img src='media/images/ecosystem.png' alt='stats' style={{"width":"100%"}} />
+              <img src='/media/images/ecosystem.png' alt='stats' style={{"width":"100%"}} />
               <div className='text-center p-5 mx-3'>
               <a href='' className='mx-5' style={{textDecoration:"none"}}>Explore Our Products  <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>   
               <a href = ' ' style={{textDecoration:"none"}}>Try Kite</a> 

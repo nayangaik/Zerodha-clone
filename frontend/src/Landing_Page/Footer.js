@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 
@@ -8,7 +9,7 @@ const Footer = () => {
     <div className='container border-top py-5'> {/* Added py-5 for vertical padding */}
     <div className='row gx-md-5'> {/* Added gx-md-5 for horizontal spacing between columns on medium and up */}
       <div className='col-md-3 mb-4 mb-md-0' style={{position:"relative" , right:"8em"}}> {/* Fixed width on medium and up, added margin-bottom for stacking on small */}
-        <img src='media/images/logo.svg' style={{"width":"70%"}} alt='logo'/> {/* Used Bootstrap's w-60 class */}
+        <img src='/media/images/logo.svg' style={{"width":"70%"}} alt='logo'/> {/* Used Bootstrap's w-60 class */}
         <p className='mt-3 text-muted'>&copy;2010 - 2025, Zerodha Broking Ltd.<br/>All rights reserved.</p> {/* Added <br/> for better wrapping */}
       </div>
       <div className='col-md-3 mb-5 mb-md-0'>

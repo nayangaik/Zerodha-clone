@@ -1,11 +1,14 @@
 import React from "react";
 
+
+
+
 function Awards() {
   return (
     <div className="container mt-5">
       <div className="row">
         <div className="col-6 p-5" style={{position:"relative" , right:"10em"}}>
-          <img src="media/images/largestBroker.svg" />
+          <img src='/media/images/largestBroker.svg' />
         </div>
         <div className="col-6 p-5 ">
           <h1>Largest stock broker in India</h1>
@@ -41,7 +44,7 @@ function Awards() {
               </ul>
             </div>
           </div >
-          <img src="media/images/pressLogos.png" style={{ width: "90%" }} />
+          <img src='/media/images/pressLogos.png' />
         </div>
       </div>
     </div>

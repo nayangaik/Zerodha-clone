@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
+
 const Navbar = () => {
   return (
     
       <nav class="navbar navbar-expand-lg  bg-light border-bottom p-2">
         <div class="container ">
           <Link class="navbar-brand" to="/" >
-            <img src="media/images/logo.svg" style={{width:"25%"}}/>
+            <img src='/media/images/logo.svg' style={{width:"25%"}}/>
           </Link>
           <button
             class="navbar-toggler"

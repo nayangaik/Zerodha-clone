@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Team = () => {
   return (
     <div className="container">
@@ -14,7 +15,7 @@ const Team = () => {
       <div className="col-6 p-3 text-center" style={{"position":"relative" , right:"5em"}} >
       
         <img
-          src="media/images/nithinKamath.jpg"
+          src='/media/images/nithinKamath.jpg'
           style={{ borderRadius: "100%", width: "50%" }}
         />
         <h4 className="mt-5">Nithin Kamath</h4>
